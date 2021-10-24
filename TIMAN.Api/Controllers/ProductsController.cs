@@ -20,7 +20,7 @@ namespace TIMAN.Api.Controllers
             _productRepository = productRepository;
         }
         [HttpGet]
-        public async Task<ActionResult> GetProducts(string timkiem)
+        public async Task<ActionResult> GetProducts(string timkiem=null)
         {
             try
             {
@@ -42,7 +42,8 @@ namespace TIMAN.Api.Controllers
             var product = await _productRepository.AddProduct(request);
             return CreatedAtAction(nameof(GetProductById), new { id = product.Id }, product);
         }
-        [HttpGet("{id:int}")]
+        [Route("GetById")]
+        [HttpGet]
         public async Task<ActionResult<Product>> GetProductById(int id)
         {
             try
