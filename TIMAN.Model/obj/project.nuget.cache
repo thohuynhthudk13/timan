@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NXwwYsQdr0c7ux3xiJg2d9sxUhD1WO+GTOi3s53zYmAHIxffpej3M8dRffa7iybsMORjV3X8BMNwhDRwScSprA==",
+  "dgSpecHash": "28Pgn9fWFI1RYJljXgn03OxhX+a+IJGqlpWI66d82KTqGiKe3ayWHlsDr6a5zxwlGaT0fINQZl/8dc6G5dci/g==",
   "success": true,
-  "projectFilePath": "D:\\CODE\\Blazor\\TIMANWeb\\TIMAN.Model\\TIMAN.Model.csproj",
+  "projectFilePath": "C:\\Users\\TRUONG\\Documents\\GitHub\\timan\\TIMAN.Model\\TIMAN.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

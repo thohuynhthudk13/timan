@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CODE\\Blazor\\TIMANWeb\\TIMAN.Model\\TIMAN.Model.csproj",
+      "projectUniqueName": "C:\\Users\\TRUONG\\Documents\\GitHub\\timan\\TIMAN.Model\\TIMAN.Model.csproj",
       "projectName": "TIMAN.Model",
-      "projectPath": "D:\\CODE\\Blazor\\TIMANWeb\\TIMAN.Model\\TIMAN.Model.csproj",
+      "projectPath": "C:\\Users\\TRUONG\\Documents\\GitHub\\timan\\TIMAN.Model\\TIMAN.Model.csproj",
       "packagesPath": "C:\\Users\\TRUONG\\.nuget\\packages\\",
-      "outputPath": "D:\\CODE\\Blazor\\TIMANWeb\\TIMAN.Model\\obj\\",
+      "outputPath": "C:\\Users\\TRUONG\\Documents\\GitHub\\timan\\TIMAN.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TRUONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
