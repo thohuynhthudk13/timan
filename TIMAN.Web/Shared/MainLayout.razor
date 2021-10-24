@@ -1,0 +1,77 @@
+﻿@inherits LayoutComponentBase
+@using TIMAN.Model
+<header>
+    <div class="header-top">
+        <div class="container">
+            <div class="header-middle-content">
+                <div class="header-middle-left">
+                    <a id="logo" class="header-logo" href="/" rel="js-header-logo">
+                        <img class="header-logo-pc loading"
+                             src="	https://timan.vn/Thumb.ashx?s=500&file=/UploadImages/timan-logo.png"
+                             alt="Timan - Kênh Mua Sắm Giày Trực Tuyến Hàng Đầu Việt Nam"
+                             width="150px"
+                             height="24px"
+                             data-was-processed="true" />
+                    </a>
+                </div>
+                <div class="header-middle-center">
+                    <div class="header-search-content" rel="js-header-search-content">
+                        <div class="header-search-box">
+                            <input name="txtSearch"
+                                   type="text"
+                                   id="txtSearch"
+                                   class="search has-error header-search-input"
+                                   @bind-value="@TuKhoaTimKiem"
+                                   autocomplete="off"
+                                   placeholder="Tìm kiếm trên Timan..." 
+                                   />
+                            <span class="not-visible"></span>
+                            <div class="header-search-button"
+                                    id="btnSearchText"
+                                    @onclick="@TimKiemSanPham">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <ul class="main-menu">
+                <li class="active">
+                    <a href="/">
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/giay-nam">
+                        <span>Giày nam</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/giay-nu">
+                        <span>Giày nữ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/thoi-trang-nam">
+                        <span>Thời trang nam</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/thoi-trang-nữ">
+                        <span>Thời trang nữ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/thoi-trang-be-yeu">
+                        <span>Thời trang bé yêu</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+@Body
